@@ -1,14 +1,14 @@
 #!/bin/bash
 
 if [[ -z "${PASSWORD}" ]]; then
-  export PASSWORD="5c301bb8-6c77-41a0-a606-4ba11bbab084"
+  export PASSWORD="40nsczxj,tpmzyd;jgeceyekb,fyfy"
 fi
 echo ${PASSWORD}
 
 export PASSWORD_JSON="$(echo -n "$PASSWORD" | jq -Rc)"
 
 if [[ -z "${ENCRYPT}" ]]; then
-  export ENCRYPT="chacha20-ietf-poly1305"
+  export ENCRYPT="chacha20-ietf"
 fi
 
 if [[ -z "${V2_Path}" ]]; then
