@@ -28,6 +28,6 @@
      }
   },
   "website": "",
-  "repository": "",
+  "repository": "https://github.com/caspian68/shadowsocks-heroku",
   "stack": "container"
  }
